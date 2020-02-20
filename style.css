@@ -1,0 +1,13 @@
+.navitem{
+    padding: 10px 15px;
+}
+
+.navbar{
+    background-color: lightskyblue;    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
