@@ -1,13 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Akronim&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(151, 155, 161);
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    color: lightskyblue;
+}
+
+.headerHolder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1{
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 125px;
+    font-family: Akronim;
+    font-weight: 100;
+}
+
+.intro{
+    margin: 150px 250px;
+}
+
+img{
+    height: 100px;
+}
+
+.navlink{
+    padding: 0px 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 27px;
+    color: lightskyblue;
+    font-weight: lighter;
+    font-family: 'Fugaz One';
+}
+
+.navlink:hover{
+    background-color: lightskyblue;
+    color: #24252A;
+}
+
 .navitem{
     padding: 10px 15px;
 }
 
-.navbar{
-    background-color: lightskyblue;    
+.navbar{    
     display: flex;
+    align-items: center;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
