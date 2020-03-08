@@ -1,0 +1,14 @@
+document.write('<header>');
+document.write('<div id="headerHolder">');
+document.write('<img src="images\\Ziggy\\IMG_3933crop.png">');
+document.write('<h1>Ziggy</h1>');
+document.write('<img src="images\\Ziggy\\IMG_3731.JPG">');
+document.write('</div>');
+document.write('<nav class="navbar">');
+document.write('<a role="button" class="navlink" href="blog.html">Blog</a>');
+document.write('<a role="button" class="navlink" href="family.html">Family</a>');
+document.write('<a role="button" class="navlink" href="images.html">Images</a>');
+document.write('<a role="button" class="navlink" href="schedule.html">Schedule</a>');
+document.write('<a role="button" class="navlink" href="contact.html">Contact Me</a>');
+document.write('</nav>');
+document.write('</header>');
