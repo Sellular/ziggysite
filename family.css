@@ -1,0 +1,66 @@
+#root{
+    margin: 0;
+}
+
+#familyNav{
+    background-color: lightskyblue;
+    color: #24252A;
+}
+
+#familyHolder{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.familyCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    height: 450px;
+    border-radius: 20px;
+    margin: 10px;
+    color: lightskyblue;
+    background-color: #24252A;
+    overflow: hidden;
+    box-shadow: 
+    -5px 5px 5px rgba(36, 37, 42, .5),
+    5px 5px 5px rgba(36, 37, 42, .5);
+}
+
+.familyName{
+    position: absolute;
+    right: 0;
+    padding-right: 50px;
+}
+
+.familyCardTop{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 40%;
+    font-family: 'Akronim';
+    font-size: 75pt;
+}
+
+.familyCardBottom{
+    height: 60%;
+}
+
+.familyCard img{
+    position: relative;
+    height: 100%;
+    border-bottom-right-radius: 20px;
+    left: 0;
+}
+
+.familyCard p{
+    margin: 20px 50px;
+    font-weight: 0;
+    font-size: 18pt;
+    font-family: 'Fugaz One'
+}

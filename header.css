@@ -1,16 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Akronim&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
 
-html, body, #root{
-    height: 100%;
-}
-
-body{
-    padding: 0;
-    margin: 0;
-    background-color: rgb(151, 155, 161);
-}
-
 header{
     display: flex;
     flex-direction: column;
@@ -20,6 +10,10 @@ header{
     background-color: #24252A;
     color: lightskyblue;
     height: 260px;
+}
+
+#ziggyFlipped{
+    transform: scale(-1, 1);
 }
 
 #headerHolder{
@@ -35,7 +29,7 @@ header{
     padding: 10px 40px;
     text-align: center;
     font-size: 130px;
-    font-family: Akronim;
+    font-family: 'Akronim';
     font-weight: 100;
 }
 
