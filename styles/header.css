@@ -89,7 +89,7 @@ header{
         flex-direction: row;
         box-sizing: border-box;
         height: 100px;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
     }
 
@@ -104,8 +104,6 @@ header{
     .navbar.open{
         display: flex;
     }
-
-
 
     #menu-button{
         display: flex;
