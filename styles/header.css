@@ -40,6 +40,7 @@ header{
 #menu-button{
     display: none;
     padding: 10px;
+    padding-right: 20px;
     align-self: stretch;
     align-items: center;
     justify-content: center;
@@ -71,10 +72,23 @@ header{
 }
 
 @media (max-width: 600px){
+    #ziggyFlipped{
+        display: none;
+    }
+
+    #headerHolder > img{
+        height: 50px;
+    }
+
+    #headerHolder > h1{
+        padding: 5px 20px;
+        font-size: 55px;
+    }
+
     header{
         flex-direction: row;
         box-sizing: border-box;
-        height: 150px;
+        height: 100px;
         justify-content: space-between;
         align-items: center;
     }
