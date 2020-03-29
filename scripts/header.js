@@ -12,7 +12,7 @@ document.write('<rect fill="lightskyblue" y="30" width="100" height="15"></rect>
 document.write('<rect fill="lightskyblue" y="60" width="100" height="15"');
 document.write('</svg>');
 document.write('</div>');
-document.write('<nav class="navbar">');
+document.write('<nav id="navbar">');
 document.write('<a role="button" id="homeNav" class="navlink" href="index.html"><i class="fa fa-home fa-lg"></i></a>');
 document.write('<a role="button" id="blogNav" class="navlink" href="blog.html">Blog</a>');
 document.write('<a role="button" id="familyNav" class="navlink" href="family.html">Family</a>');

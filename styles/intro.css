@@ -2,3 +2,33 @@
     background-color: lightskyblue;
     color: #24252A;
 }
+
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#root > h1{
+    padding: 0 20px;
+    border-radius: 10px;
+    color: lightskyblue;
+    background-color: #24252A;
+    margin: 0;
+    font-size: 80pt;
+    font-weight: 100;
+}
+
+#root > p{
+    font-size: 20pt;
+}
+
+#root > a, #root > a:visited{
+    color: #24252A;
+    text-decoration: none;
+}
+
+#root > a:hover{
+    color: lightskyblue;
+}
