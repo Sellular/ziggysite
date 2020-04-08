@@ -33,3 +33,24 @@
 .blogDate{
     color: rgba(135, 206, 250, 0.664);
 }
+
+@media(max-width: 600px){
+    #root{
+        margin: 0;
+        padding: 10px;
+    }
+
+    .blogEntry{
+        width: 100%;
+        font-size: 12pt;
+    }
+
+    .blogTitle{
+        padding: 10px 25px;
+        font-size: 35pt;
+    }
+
+    .blogBody{
+        padding: 0px 25px;
+    }
+}
