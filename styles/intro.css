@@ -32,3 +32,18 @@
 #root > a:hover{
     color: lightskyblue;
 }
+
+@media(max-width: 600px){
+    #root{
+        margin: 0;
+        padding: 10px;
+    }
+
+    #root > h1{
+        font-size: 50pt;
+    }
+
+    #root > p{
+        font-size: 15pt;
+    }
+}
