@@ -8,7 +8,6 @@
 }
 
 #images{
-    margin: auto;
     display: flex;
     justify-content: space-evenly;
     width: 85%;
@@ -16,11 +15,33 @@
     flex-wrap: wrap;
 }
 
-#images img{
+#images > img{
     height: 300px;
     border-radius: 10px;
     margin: 10px 5px;
     box-shadow: 
     -5px 5px 5px rgba(36, 37, 42, .5),
     5px 5px 5px rgba(36, 37, 42, .5);
+}
+
+@media(max-width: 600px){
+    #root{
+        padding: 10px;
+    }
+
+    #images{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin: 0;
+    }
+
+    #images > img{
+        height: auto;
+        width: 100%;
+        margin: 15px;
+        flex-grow: 1;
+    }
 }
