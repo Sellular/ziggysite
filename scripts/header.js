@@ -1,4 +1,5 @@
 document.write('<script defer src="scripts/animateHeads.js"></script>');
+document.write('<script defer src="scripts/navmenuopen.js"></script>');
 document.write('<header>');
 document.write('<div id="headerHolder">');
 document.write('<img src="images\\Ziggy\\IMG_3933crop.png" id="ziggyPicture">');

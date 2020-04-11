@@ -51,7 +51,7 @@ header{
     padding: 0px 10px;
     border-radius: 25px;
     text-decoration: none;
-    font-size: 27px;
+    font-size: 20pt;
     color: lightskyblue;
     font-weight: lighter;
     font-family: 'Fugaz One';
@@ -99,15 +99,26 @@ header{
     }
 
     #navbar{
+        z-index: 5;
         position: absolute;
         right: 0;
-        top: 100%;
+        top: 0;
         display: none;
         flex-direction: column;
+        align-items: flex-end;
+        background-color: #24252A;
+        border-color: lightskyblue;
+        border-left-style: solid;
+        border-bottom-style: solid;
+        border-bottom-left-radius: 15px;
     }
 
-    .navbar.open{
+    #navbar.open{
         display: flex;
+    }
+
+    .navlink{
+        font-size: 18pt;
     }
 
     #menu-button{
