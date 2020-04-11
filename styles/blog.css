@@ -3,6 +3,12 @@
     color: #24252A;
 }
 
+.blogHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .blogTitle{
     font-family: 'Akronim';
     font-size: 50pt;
@@ -23,6 +29,7 @@
     justify-content: flex-start;
     width: 75%;
     font-size: 15pt;
+    margin-bottom: 15px;
 }
 
 .blogBody{
