@@ -12,8 +12,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 90%;
-    margin-top: 50px;
 }
 
 .familyCard{

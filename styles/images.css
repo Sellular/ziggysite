@@ -10,9 +10,9 @@
 #images{
     display: flex;
     justify-content: space-evenly;
-    width: 85%;
-    margin: 50px 7.5%;
+    width: 90%;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 #images > img{

@@ -17,7 +17,7 @@ document.write('<a role="button" id="homeNav" class="navlink" href="index.html">
 document.write('<a role="button" id="blogNav" class="navlink" href="blog.html">Blog</a>');
 document.write('<a role="button" id="familyNav" class="navlink" href="family.html">Family</a>');
 document.write('<a role="button" id="imagesNav" class="navlink" href="images.html">Images</a>');
-document.write('<a role="button" id="scheduleNav" class="navlink" href="schedule.html">Weekly Schedule</a>');
+document.write('<a role="button" id="scheduleNav" class="navlink" href="schedule.html">Daily Schedule</a>');
 document.write('<a role="button" id="contactNav" class="navlink" href="contact.html">Contact Me</a>');
 document.write('</nav>');
 document.write('</header>');
