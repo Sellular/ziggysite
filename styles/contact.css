@@ -67,6 +67,10 @@ label{
     display: none;
 }
 
+#eatenMessage.active{
+    display: flex;
+}
+
 
 @media(max-width: 600px){
     #root{
