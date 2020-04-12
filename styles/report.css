@@ -1,0 +1,16 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reportHeader{
+    text-align: center;
+    font-weight: 100;
+    background-color: #24252A;
+    color: lightskyblue;
+    font-size: 50pt;
+    width: 500px;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
