@@ -27,6 +27,7 @@
 
 .linkCard{
     width: 100px;
+    padding: 20px;
 }
 
 .linkCard > img{
@@ -45,6 +46,7 @@
 
 #emailInput{
     width: 20%;
+    min-width: 200px;
 }
 
 label{
@@ -56,6 +58,7 @@ label{
 #formSubmitButton{
     width: 100px;
     height: 25px;
+    font-size: 12pt;
     border-radius: 10px;
     background-color: #24252A;
     color: lightskyblue;
